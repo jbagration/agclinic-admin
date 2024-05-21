@@ -1,0 +1,147 @@
+
+.itemWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px ;
+    position: relative;
+}
+.addOneMore{
+    margin: 20px;
+    padding: 20px;
+}
+
+.itemNameInputBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+.itemInput {
+    width: 20px;
+    height: 20px;
+}
+
+.imageWrapper{
+    position: relative;
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 200px;
+    max-height: 200px;
+    margin: 10px;
+}
+
+.itemImg {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    border: 2px solid #dbdbdb;
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 220px;
+    max-height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.2);
+    padding: 20px;
+    margin: 20px;
+
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.itemMainImg{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    border: 2px solid #dbdbdb;
+    min-width: 220px;
+    max-width: 1000px;
+    min-height: 220px;
+    max-height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.2);
+    padding: 20px;
+    margin: 20px;
+
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.beforeAfterImg{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    border: 2px solid #dbdbdb;
+    min-width: 220px;
+    max-width: 220px;
+    max-height: 220px;
+    min-height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0.4em 0.4em 5px rgba(122, 122, 122, 0.2);
+    padding: 20px;
+    margin: 20px;
+
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.itemImgAddOneMore {
+    min-width: 220px;
+    max-width: 220px;
+    min-height: 220px;
+    max-height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+
+
+}
+
+.container {
+    position: relative;
+}
+.help-text{
+    color: #bababa;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    background-image: url("https://www.freeiconspng.com/thumbs/add-icon-png/add-icon--endless-icons-21.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 220px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.container:hover .itemImg {
+    opacity: 0.2;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+
+@media (max-width: 550px){
+    .itemNameInputBlock {
+        display: flex;
+        flex-direction: column;
+    }
+}

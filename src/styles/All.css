@@ -1,0 +1,170 @@
+.headerWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 30px;
+}
+
+.headerTitle {
+    font-family: 'Roboto';
+    color: #070000;
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.headerList {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 0 0;
+}
+
+.headerList li {
+    font-family: 'Roboto';
+    color: #070000;
+    list-style: none;
+    padding-right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.headerList li:last-child {
+    list-style: none;
+    padding-right: 5px;
+    color: blue;
+    cursor: inherit;
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+
+
+.avatar{
+    margin: 0 auto;
+    width: 140px;
+    height: 140px;
+}
+.info-block{
+    width: 50%;
+}
+.avatar-block{
+    width: 50%;
+}
+.wrap {
+    flex-direction: row;
+    display: flex;
+    padding: 10px;
+
+}
+.wrapAvatar {
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.firstBlockInfo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.infoWrapperKey{
+    display: flex;
+    flex-direction: column;
+}
+.infoWrapperValue{
+
+}
+.blanceWrappe{
+    margin: 0 auto;
+}
+
+.wrapInner {
+    flex-direction: row;
+    display: flex;
+}
+.label {
+    min-width: 120px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.subtitle {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    padding: 10px
+}
+.text{
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+.panel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #5664d21c;
+}
+.panelInCareington {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #79b3ff1c;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.statingWrap{
+
+}
+.stateItem{
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.stateItemAva{
+    width: 30px;
+    height: 30px;
+
+}
+.stateItemName{
+    flex: 1;
+}
+.stateItemCount{
+
+}
+
+@media (max-width: 786px) {
+    .wrapAvatar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blanceWrappe{
+        margin-top: 30px;
+    }
+    .avatar{
+        margin-bottom: 20px;
+    }
+    .avatar-block{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 415px) {
+    .wrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+    .text{
+        margin-left: 10px;
+    }
+}
+
+.editor-container {
+    min-height: 450px;
+  }
+

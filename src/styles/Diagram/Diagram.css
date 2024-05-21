@@ -1,0 +1,184 @@
+
+.diagram{
+    position: absolute;
+    top: 125px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    z-index: 1;
+
+    background:-moz-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 3%, rgba(0, 188, 212, 1) 4%, rgba(238, 130, 238, 1) 9%, rgba(255, 255, 0, 1) 14%, rgba(238, 130, 238, 1) 17%, rgba(0, 188, 212, 1) 19%, rgba(255, 255, 0, 1) 22%, rgba(238, 130, 238, 1) 26%, rgba(0, 188, 212, 1) 28%, rgba(255, 255, 0, 1) 31%, rgba(238, 130, 238, 1) 33%, rgba(0, 188, 212, 1) 35%, rgba(255, 255, 0, 1) 37%, rgba(0, 188, 212, 1) 40%, rgba(255, 255, 0, 1) 42%, rgba(238, 130, 238, 1) 45%, rgba(255, 255, 0, 1) 47%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 53%, rgba(255, 255, 0, 1) 56%, rgba(238, 130, 238, 1) 58%, rgba(0, 188, 212, 1) 60%, rgba(238, 130, 238, 1) 63%, rgba(255, 255, 0, 1) 65%, rgba(238, 130, 238, 1) 69%, rgba(0, 188, 212, 1) 72%, rgba(238, 130, 238, 1) 74%, rgba(255, 255, 0, 1) 76%, rgba(238, 130, 238, 1) 79%, rgba(0, 188, 212, 1) 82%, rgba(255, 255, 0, 1) 85%, rgba(238, 130, 238, 1) 87%, rgba(0, 188, 212, 1) 89%, rgba(0, 188, 212, 1) 93%, rgba(255, 255, 0, 1) 96%, rgba(238, 130, 238, 1) 99%);
+
+/* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 3%, rgba(0, 188, 212, 1) 4%, rgba(238, 130, 238, 1) 9%, rgba(255, 255, 0, 1) 14%, rgba(238, 130, 238, 1) 17%, rgba(0, 188, 212, 1) 19%, rgba(255, 255, 0, 1) 22%, rgba(238, 130, 238, 1) 26%, rgba(0, 188, 212, 1) 28%, rgba(255, 255, 0, 1) 31%, rgba(238, 130, 238, 1) 33%, rgba(0, 188, 212, 1) 35%, rgba(255, 255, 0, 1) 37%, rgba(0, 188, 212, 1) 40%, rgba(255, 255, 0, 1) 42%, rgba(238, 130, 238, 1) 45%, rgba(255, 255, 0, 1) 47%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 53%, rgba(255, 255, 0, 1) 56%, rgba(238, 130, 238, 1) 58%, rgba(0, 188, 212, 1) 60%, rgba(238, 130, 238, 1) 63%, rgba(255, 255, 0, 1) 65%, rgba(238, 130, 238, 1) 69%, rgba(0, 188, 212, 1) 72%, rgba(238, 130, 238, 1) 74%, rgba(255, 255, 0, 1) 76%, rgba(238, 130, 238, 1) 79%, rgba(0, 188, 212, 1) 82%, rgba(255, 255, 0, 1) 85%, rgba(238, 130, 238, 1) 87%, rgba(0, 188, 212, 1) 89%, rgba(0, 188, 212, 1) 93%, rgba(255, 255, 0, 1) 96%, rgba(238, 130, 238, 1) 99%);
+
+/* opera 11.10+ */
+    background:-o-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 3%, rgba(0, 188, 212, 1) 4%, rgba(238, 130, 238, 1) 9%, rgba(255, 255, 0, 1) 14%, rgba(238, 130, 238, 1) 17%, rgba(0, 188, 212, 1) 19%, rgba(255, 255, 0, 1) 22%, rgba(238, 130, 238, 1) 26%, rgba(0, 188, 212, 1) 28%, rgba(255, 255, 0, 1) 31%, rgba(238, 130, 238, 1) 33%, rgba(0, 188, 212, 1) 35%, rgba(255, 255, 0, 1) 37%, rgba(0, 188, 212, 1) 40%, rgba(255, 255, 0, 1) 42%, rgba(238, 130, 238, 1) 45%, rgba(255, 255, 0, 1) 47%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 53%, rgba(255, 255, 0, 1) 56%, rgba(238, 130, 238, 1) 58%, rgba(0, 188, 212, 1) 60%, rgba(238, 130, 238, 1) 63%, rgba(255, 255, 0, 1) 65%, rgba(238, 130, 238, 1) 69%, rgba(0, 188, 212, 1) 72%, rgba(238, 130, 238, 1) 74%, rgba(255, 255, 0, 1) 76%, rgba(238, 130, 238, 1) 79%, rgba(0, 188, 212, 1) 82%, rgba(255, 255, 0, 1) 85%, rgba(238, 130, 238, 1) 87%, rgba(0, 188, 212, 1) 89%, rgba(0, 188, 212, 1) 93%, rgba(255, 255, 0, 1) 96%, rgba(238, 130, 238, 1) 99%);
+
+/* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE82EE', endColorstr='#FFFF00', GradientType=0 );
+
+/* ie 10+ */
+    background:-ms-linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 3%, rgba(0, 188, 212, 1) 4%, rgba(238, 130, 238, 1) 9%, rgba(255, 255, 0, 1) 14%, rgba(238, 130, 238, 1) 17%, rgba(0, 188, 212, 1) 19%, rgba(255, 255, 0, 1) 22%, rgba(238, 130, 238, 1) 26%, rgba(0, 188, 212, 1) 28%, rgba(255, 255, 0, 1) 31%, rgba(238, 130, 238, 1) 33%, rgba(0, 188, 212, 1) 35%, rgba(255, 255, 0, 1) 37%, rgba(0, 188, 212, 1) 40%, rgba(255, 255, 0, 1) 42%, rgba(238, 130, 238, 1) 45%, rgba(255, 255, 0, 1) 47%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 53%, rgba(255, 255, 0, 1) 56%, rgba(238, 130, 238, 1) 58%, rgba(0, 188, 212, 1) 60%, rgba(238, 130, 238, 1) 63%, rgba(255, 255, 0, 1) 65%, rgba(238, 130, 238, 1) 69%, rgba(0, 188, 212, 1) 72%, rgba(238, 130, 238, 1) 74%, rgba(255, 255, 0, 1) 76%, rgba(238, 130, 238, 1) 79%, rgba(0, 188, 212, 1) 82%, rgba(255, 255, 0, 1) 85%, rgba(238, 130, 238, 1) 87%, rgba(0, 188, 212, 1) 89%, rgba(0, 188, 212, 1) 93%, rgba(255, 255, 0, 1) 96%, rgba(238, 130, 238, 1) 99%);
+
+/* global 94%+ browsers support */
+    background:linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 3%, rgba(0, 188, 212, 1) 4%, rgba(238, 130, 238, 1) 9%, rgba(255, 255, 0, 1) 14%, rgba(238, 130, 238, 1) 17%, rgba(0, 188, 212, 1) 19%, rgba(255, 255, 0, 1) 22%, rgba(238, 130, 238, 1) 26%, rgba(0, 188, 212, 1) 28%, rgba(255, 255, 0, 1) 31%, rgba(238, 130, 238, 1) 33%, rgba(0, 188, 212, 1) 35%, rgba(255, 255, 0, 1) 37%, rgba(0, 188, 212, 1) 40%, rgba(255, 255, 0, 1) 42%, rgba(238, 130, 238, 1) 45%, rgba(255, 255, 0, 1) 47%, rgba(0, 188, 212, 1) 50%, rgba(238, 130, 238, 1) 53%, rgba(255, 255, 0, 1) 56%, rgba(238, 130, 238, 1) 58%, rgba(0, 188, 212, 1) 60%, rgba(238, 130, 238, 1) 63%, rgba(255, 255, 0, 1) 65%, rgba(238, 130, 238, 1) 69%, rgba(0, 188, 212, 1) 72%, rgba(238, 130, 238, 1) 74%, rgba(255, 255, 0, 1) 76%, rgba(238, 130, 238, 1) 79%, rgba(0, 188, 212, 1) 82%, rgba(255, 255, 0, 1) 85%, rgba(238, 130, 238, 1) 87%, rgba(0, 188, 212, 1) 89%, rgba(0, 188, 212, 1) 93%, rgba(255, 255, 0, 1) 96%, rgba(238, 130, 238, 1) 99%);
+
+
+}
+.piece6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #ffffff;
+    position: absolute;
+    top: -75px;
+    left: 44px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
+.piece7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #ffffff;
+    position: absolute;
+    top: -90px;
+    left: 155px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
+.piece8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #ffffff;
+    position: absolute;
+    top: -50px;
+    left: 260px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
+.piece9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #ffffff;
+    position: absolute;
+    top: 40px;
+    left: 340px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
+.piece10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #ffffff;
+    position: absolute;
+    top: 160px;
+    left: 355px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
+.piece11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #ffffff;
+    position: absolute;
+    top: 270px;
+    left: 305px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
+.piece12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #000;
+    position: absolute;
+    top: 340px;
+    left: 220px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
+.piece1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #000;
+    position: absolute;
+    top: 355px;
+    left: 105px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
+.piece2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #000;
+    position: absolute;
+    top: 310px;
+    left: 0px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
+.piece3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #000;
+    position: absolute;
+    top: 210px;
+    left: -70px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
+.piece4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #fff;
+    position: absolute;
+    top: 95px;
+    left: -85px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
+.piece5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 31px;
+    color: #fff;
+    position: absolute;
+    top: -10px;
+    left: -40px;
+    width: 240px;
+    height: 240px;
+    z-index: 101
+}
